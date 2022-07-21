@@ -10,7 +10,7 @@ body{
 
 /**********Header Section******/
 header .container{
-    background: #161616;
+    background: #306994;
     margin: 0 auto;
     border-radius: 10px;
     display: flex;
@@ -47,7 +47,7 @@ header .container .left-content .live-link{
     line-height: 23px;
     color:#fff;
     text-decoration: none;
-    background: #DD0000;
+    background: #C5357F;
     padding: 16px 25px;
     border-radius: 5px;
 }
@@ -68,8 +68,9 @@ main .container{
     display: flex;
     margin-top: 130px;
 }
+/****** Sidebar part*****/
 main .container .aside{
-    background: #161616;
+    background: #306994;
     width: 312px;
     height: 312px;
     border-radius: 10px;
@@ -86,10 +87,6 @@ main .container .aside .button{
     
 }
 main .container .aside .button div{
-    
-    
-    width: 252px;
-    height: 62px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -105,6 +102,135 @@ main .container .aside a{
     display: block;
     background: #fff;
 }
+main .container .aside .button .upcoming a{
+    padding: 17px 40px;
+    border-radius: 10px;
+}
+main .container .aside .button .all a{
+    padding: 17px 79px;
+    border-radius: 10px;
+}
+main .container .aside .button .blog a{
+    padding: 17px 103px;
+    border-radius: 10px;
+}
 main .container .aside .button .all{
     margin: 30px 0px;
+}
+
+/****** Blog part*****/
+.blogs{
+    margin-left: 24px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 24px;
+}
+.blogs article{
+    border: 1px solid #E8E8E8;
+    width: 312px;
+    height: 362px;
+    border-radius: 10px;
+}
+.blogs article .featured-image{
+    border: none;
+}
+.blogs article .blog-content{
+   padding: 20px;
+}
+.blog-content .transfer-btn a{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161616;
+    text-decoration: none;
+    border: 1px solid #161616;
+    padding: 4px 16px;
+    border-radius: 10px;
+}
+.blog-content h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #161616;
+    margin:15px 0px 10px 0px;
+}
+.blog-content .icon-section{
+    display: flex;
+}
+.icon-section .clock{
+    display: flex;
+    align-items: center;
+}
+.icon-section .chat{
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+}
+.clock p{
+    margin-left: 10px;
+}
+.chat p{
+    margin-left: 10px;
+}
+.icon-section i,p{
+    color: rgba(22, 22, 22, 0.7);
+}
+/**** Tablet button****/
+.tablet-btn{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+.tablet-btn a{
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #fff;
+    text-decoration: none;
+    background: #C5357F;
+    padding: 16px 25px;
+    border-radius: 5px;
+}
+.tablet-btn i{
+    margin-left: 10px;
+}
+/**** Footer Section****/
+footer{
+    background: #306994;
+    padding: 130px 0px;
+    margin-top: 130px;
+}
+footer .container{
+    margin: 0 auto;
+}
+footer h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+footer hr{
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+footer .menu{
+    text-align: center;
+}
+footer .menu a{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.9);
+    margin-right: 24px;
+    text-decoration: none;
 }
