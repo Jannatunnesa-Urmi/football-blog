@@ -113,6 +113,11 @@ main .container .aside a{
     display: block;
     background: #fff;
 }
+.index{
+    background: #C5357F;
+    color: #fff;
+}
+
 main .container .aside .button .upcoming a{
     padding: 17px 40px;
     border-radius: 10px;
