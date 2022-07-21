@@ -12,7 +12,7 @@ body{
 header .container{
     background: #161616;
     margin: 0 auto;
-    border-radius: 20px;
+    border-radius: 10px;
     display: flex;
     margin-top: 50px;
 }
@@ -61,4 +61,50 @@ header .container .right-image{
 }
 header .container .right-image img{
     width: 100%;
+}
+/****** Main blog section*****/
+main .container{
+    margin: 0 auto;
+    display: flex;
+    margin-top: 130px;
+}
+main .container .aside{
+    background: #161616;
+    width: 312px;
+    height: 312px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .container .aside .button{
+    display: flex;
+    flex-direction: column;
+    width: 252px;
+    height: 252px;
+    border-radius: 10px;
+    
+}
+main .container .aside .button div{
+    
+    
+    width: 252px;
+    height: 62px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+main .container .aside a{
+    color: #161616; 
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+    display: block;
+    background: #fff;
+}
+main .container .aside .button .all{
+    margin: 30px 0px;
 }
