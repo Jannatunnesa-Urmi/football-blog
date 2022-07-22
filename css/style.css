@@ -299,10 +299,128 @@ footer .menu a{
 }
 
 /*********************
-    Media Query
+    Media Query for tablet
     ******************/
 
     @media only screen and (min-width: 668px) and (max-width: 992px){
+        .container{
+            width: 100%;
+        }
+        header,main,footer{
+            padding: 0px 50px;
+        }
+        /******Header section *****/
+        header .container{
+            margin: 50px 0px 70px 0px;
+        }
+        header .container .left-content {
+            padding: 61px 0px 61px 76px;
+        }
+        header .container h1 {
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 50px;
+        }
+        header .container p {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+        }
+        header .container a {
+            font-weight: 400;
+            font-size: 2px;
+            line-height: 23px;
+        }
+        /******Main section *****/
+        main{
+            flex-direction: column;
+        }
+        main .container{
+            flex-direction: column;
+            margin-top: 0px;
+        }
+        main .container .aside{
+            width: 100%;
+            height: auto;
+            background: transparent;
+        }
+        .button{
+            margin-bottom: 30px;
+        }
+        .button a{
+            padding: 0px!important;
+           
+        }
+        .button .all, .upcoming, .blog{
+            width: 100%;
+            height: 64px;
+            background: #fff;
+            border: 1px solid #E8E8E8;
+            border-radius: 10px;
+        }
+        .button .all{
+            margin: 0px 20px!important;
+        }
+        main .container .aside .button{
+            flex-direction: row;
+            width: 100%;
+            height: auto;
+        }
+        main .container .aside .button #blog{
+            background: #C5357F;
+            color: #fff;
+        }
+        main .container .aside .button #upcoming{
+            background: #C5357F;
+            color: #fff;
+        }
+        .blogs {
+            margin-left: 0px;
+            grid-template-columns: repeat(2,1fr);
+            grid-gap: 20px;
+        }
+        .blogs img{
+            width: 100%;
+        }
+        .blogs article{
+            width: 100%;
+            height: auto;
+        }
+        .tablet-btn{
+            display: block;
+            text-align: center;
+        }
+        /******Footer section*******/
+        footer{
+            margin-top: 70px;
+            padding-bottom: 55px;
+        }
+        footer h2{
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+            margin-top: 70px;
+        }
+        footer .menu{
+            max-width: 635px;
+            margin: 0 auto;
+        }
+        footer .menu a{
+            margin-right: 50px;
+            line-height: 40px;
+        }
+        header .container .right-image {
+            padding: 68px 17px 0px 4px;
+        }
+         html{
+            overflow: hidden!important;
+        }
+    }
+
+    /*********************
+    Media Query for mobile
+    ******************/
+
+    @media only screen and (max-width: 668px) {
         .container{
             width: 100%;
         }
