@@ -412,6 +412,12 @@ footer .menu a{
         header .container .right-image {
             padding: 68px 17px 0px 4px;
         }
+        .flag {
+            margin-left: 0px;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-gap: 20px;
+        }
          
     }
 
@@ -539,5 +545,11 @@ footer .menu a{
         footer .menu a{
             margin-right: 0px;
             line-height: 40px;
+        }
+        .flag {
+            margin-left: 0px;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            grid-gap: 14px;
         }
     }
